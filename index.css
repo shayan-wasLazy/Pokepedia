@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    background-color: #111;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg2wb.png);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: briB;
+    src: url(BricolageGrotesque-ExtraBold.ttf);
+}
+@font-face {
+    font-family: briM;
+    src: url(BricolageGrotesque-Medium.ttf);
+}
+@font-face {
+    font-family: briL;
+    src: url(BricolageGrotesque-ExtraLight.ttf);
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    font-family: briM; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navBar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.5s, font-size 0.5s, text-shadow 0.3s; 
+    font-size: 20px;
+}
+
+.navBar a:hover {
+    text-shadow: 0 0 3px white; 
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    width: 1030px;
+    height: 540px;
+    text-align: center; 
+}
+
+.herot {
+    display: flex;
+    justify-content: center;
+    font-family: briB;
+    font-size: 100px;
+    margin: 0;
+    background: linear-gradient(to bottom, #FB1B1B 25%, #FFFFFF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hst {
+    display: flex;
+    justify-content: center;
+    font-family: briL;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 5px 0 0;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    padding: 12px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+    color: white;
+    margin-top: 20px; 
+}
+
+.cta:hover {
+    background-color: rgba(107, 107, 107, 0.2);
+    border-color: #ffffff; 
+}
+
+.button1
+{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
